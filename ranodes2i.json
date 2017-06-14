@@ -1,0 +1,34 @@
+{
+  "kind" : "ImageStreamList",
+  "apiVersion" : "v1",
+  "metadata" : {},
+  "items" : [
+    {
+      "kind" : "ImageStream",
+      "apiVersion" : "v1",
+      "metadata" : {
+        "name" : "nodejs",
+        "creationTimestamp" : null
+      },
+      "spec" : {
+        "tags" : [
+          {
+            "name" : "6.11.0",
+            "annotations" : {
+              "description" : "Build and run NodeJS applications",
+              "iconClass" : "icon-nodejs",
+              "tags" : "builder,nodejs,nodejs-6.11.0,nodejs-latest",
+              "supports" : "nodejs:6,nodejs:6.11,nodejs",
+              "version" : "6.11.0",
+              "sampleRepo" : "https://github.com/ryanj/pillar-base.git"
+            },
+            "from" : {
+              "kind" : "DockerImage",
+              "name" : "http://ctl.ncc9.com:5000/ranodes2i"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
