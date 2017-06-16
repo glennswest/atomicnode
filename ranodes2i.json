@@ -7,7 +7,7 @@
       "kind" : "ImageStream",
       "apiVersion" : "v1",
       "metadata" : {
-        "name" : "nodejs",
+        "name" : "nodejstiny",
         "creationTimestamp" : null
       },
       "spec" : {
