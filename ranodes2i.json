@@ -13,9 +13,9 @@
       "spec" : {
         "tags" : [
           {
-            "name" : "6.11.0",
+            "name" : "6.3.1",
             "annotations" : {
-              "description" : "Build and run NodeJS applications using rhel atomic base image",
+              "description" : "Build and run NodeJS applications using RHEL Atomic Base Image",
               "iconClass" : "icon-nodejs",
               "tags" : "builder,nodejs,nodejs-6.11.0,nodejs-latest",
               "supports" : "nodejs:6,nodejs:6.11,nodejs",
