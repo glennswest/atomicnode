@@ -13,7 +13,7 @@
       "spec" : {
         "tags" : [
           {
-            "name" : "6.3.1",
+            "name" : "6.11.0",
             "annotations" : {
               "description" : "Build and run NodeJS applications using RHEL Atomic Base Image",
               "iconClass" : "icon-nodejs",
