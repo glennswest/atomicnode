@@ -24,7 +24,7 @@
             },
             "from" : {
               "kind" : "DockerImage",
-              "name" : "ctl.ncc9.com/ranodes2i"
+              "name" : "nccdev.azurecr.io/ranodes2i"
             }
           }
         ]
